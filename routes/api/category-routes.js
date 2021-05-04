@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { json } = require('sequelize/types');
+// const { json } = require('sequelize/types');
 const { Category, Product } = require('../../models');
 
 router.get('/', (req, res) => {
